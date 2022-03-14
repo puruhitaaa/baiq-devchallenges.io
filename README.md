@@ -35,7 +35,7 @@
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
 - The demo is being made
-- This challenge was very exciting and helped me to advanced to the next level of development with React
+- This challenge was very exciting and helped me to advance to the next level of development with React
 - I learned on how to create a reusable component and render it on Storybook
 
 ### Built With
@@ -70,6 +70,6 @@ $ npm run storybook
 
 ## Contact
 
-- Website [your-website.com](https://tinyurl.com/baiq-portfolio-site)
+- Website [tinyurl.com/baiq-portfolio-site](https://tinyurl.com/baiq-portfolio-site)
 - GitHub [@puruhitaaa](https://github.com/puruhitaaa)
 - Instagram [@pahugerpb\_](https://instagram.com/pahugerpb_)
