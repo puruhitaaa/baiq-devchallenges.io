@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap');
+
+:root {
+  --default: #e0e0e0;
+  --default-hover: #aeaeae;
+  --primary: #2962ff;
+  --primary-hover: #0039cb;
+  --secondary: #455a64;
+  --secondary-hover: #1c313a;
+  --danger: #d32f2f;
+  --danger-hover: #9a0007;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.MuiSvgIcon-root {
+  width: 0.75em !important;
+}
+
+.button-icon--left {
+  margin-right: 10px;
+}
+
+.button-icon--right {
+  margin-left: 10px;
+}
+
+/* Variants */
+.button-variant--default {
+  border: none;
+  box-shadow: 0px 2px 3px 0px #33333333;
+}
+
+.button-variant--default:disabled {
+  box-shadow: none;
+  background-color: #e0e0e0;
+  color: #9e9e9e;
+}
+
+.button-variant--default:disabled:hover {
+  box-shadow: none;
+  background-color: #e0e0e0;
+  color: #9e9e9e;
+}
+
+.button-variant--outline {
+  border-width: 1px;
+  background-color: transparent;
+}
+
+.button-variant--outline:disabled {
+  border-width: 1px;
+  border-color: #9e9e9e;
+  color: #9e9e9e;
+  background-color: transparent;
+}
+
+.button-variant--outline:disabled:hover {
+  border-width: 1px;
+  border-color: #9e9e9e;
+  color: #9e9e9e;
+  background-color: transparent;
+}
+
+.button-variant--text {
+  border: none;
+  background-color: transparent;
+}
+
+.button-variant--text:disabled {
+  border: none;
+  background-color: transparent;
+  color: #9e9e9e;
+}
+
+.button-variant--text:disabled:hover {
+  border: none;
+  background-color: transparent;
+  color: #9e9e9e;
+}
+
+/* Colors */
+.button-solid--default {
+  background-color: var(--default);
+  color: #3f3f3f;
+}
+
+.button-solid--default:hover {
+  background-color: var(--default-hover);
+}
+
+.button-solid--default:focus {
+  background-color: var(--default-hover);
+}
+
+.button-solid--primary {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.button-solid--primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.button-solid--primary:focus {
+  background-color: var(--primary-hover);
+}
+
+.button-solid--secondary {
+  background-color: var(--secondary);
+  color: #ffffff;
+}
+
+.button-solid--secondary:hover {
+  background-color: var(--secondary-hover);
+}
+
+.button-solid--secondary:focus {
+  background-color: var(--secondary-hover);
+}
+
+.button-solid--danger {
+  background-color: var(--danger);
+  color: #ffffff;
+}
+
+.button-solid--danger:hover {
+  background-color: var(--danger-hover);
+}
+
+.button-solid--danger:focus {
+  background-color: var(--danger-hover);
+}
+
+/* Outline */
+.button-outline--default {
+  border-color: #3f3f3f;
+  color: #3f3f3f;
+}
+
+.button-outline--default:hover {
+  background-color: #aeaeae;
+}
+
+.button-outline--default:focus {
+  background-color: #aeaeae;
+}
+
+.button-outline--primary {
+  border-color: #3d5afe;
+  color: #3d5afe;
+}
+
+.button-outline--primary:hover {
+  background-color: #2962ff1a;
+}
+
+.button-outline--primary:focus {
+  background-color: #2962ff1a;
+}
+
+.button-outline--secondary {
+  border-color: #455a64;
+  color: #455a64;
+}
+
+.button-outline--secondary:hover {
+  background-color: #1c313a3b;
+}
+
+.button-outline--secondary:focus {
+  background-color: #1c313a3b;
+}
+
+.button-outline--danger {
+  border-color: #d32f2f;
+  color: #d32f2f;
+}
+
+.button-outline--danger:hover {
+  background-color: #9a000834;
+}
+
+.button-outline--danger:focus {
+  background-color: #9a000834;
+}
+
+/* Text */
+.button-text--default {
+  color: #3f3f3f;
+}
+
+.button-text--default:hover {
+  background-color: #aeaeae;
+}
+
+.button-text--default:focus {
+  background-color: #aeaeae;
+}
+
+.button-text--primary {
+  color: #3d5afe;
+}
+
+.button-text--primary:hover {
+  background-color: #2962ff1a;
+}
+
+.button-text--primary:focus {
+  background-color: #2962ff1a;
+}
+
+.button-text--secondary {
+  color: #455a64;
+}
+
+.button-text--secondary:hover {
+  background-color: #1c313a3b;
+}
+
+.button-text--secondary:focus {
+  background-color: #1c313a3b;
+}
+
+.button-text--danger {
+  color: #d32f2f;
+}
+
+.button-text--danger:hover {
+  background-color: #9a000834;
+}
+
+.button-text--danger:focus {
+  background-color: #9a000834;
+}
+
+/* Shadow */
+.button--disableShadow {
+  box-shadow: none;
+}
+
+/* Sizing */
+.button-size--sm {
+  padding: 6px 12px 6px 12px;
+}
+
+.button-size--md {
+  padding: 8px 16px 8px 16px;
+}
+
+.button-size--lg {
+  padding: 11px 22px 11px 22px;
+}

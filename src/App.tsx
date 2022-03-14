@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <main>
+        <h1>Hey there! are you lost?</h1>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Please run <code>npm run storybook</code> to get into the Button's
+          Storybook and start playing around with it.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <p>Thank you :D</p>
+      </main>
+
+      <footer>
+        <p>This project was made by me,</p>
+        <a href="https://github.com/puruhitaaa">Baiq</a>
+      </footer>
+    </>
   );
-}
+};
 
 export default App;
