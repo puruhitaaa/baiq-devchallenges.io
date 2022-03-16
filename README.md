@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://www.chromatic.com/library?appId=62319ee49ec817003a4eb3f1">
       Demo
     </a>
     <span> | </span>
