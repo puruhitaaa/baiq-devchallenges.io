@@ -9,6 +9,8 @@ jobs:
   test:
     # Operating System
     runs-on: ubuntu-latest
+    env:
+      CHROMATIC_PROJECT_TOKEN: 023c2cdf6faf
     # Job steps
     steps:
       - uses: actions/checkout@v1
