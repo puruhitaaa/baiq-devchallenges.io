@@ -6,8 +6,8 @@ const App = () => {
       <main>
         <h1>Hey there! are you lost?</h1>
         <p>
-          Please run <code>npm run storybook</code> to get into the Button's
-          Storybook and start playing around with it.
+          Please run <code>npm run storybook</code> to get into the Storybook
+          and start playing around with it.
         </p>
         <p>Thank you :D</p>
       </main>
