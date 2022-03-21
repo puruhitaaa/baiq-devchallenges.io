@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://www.chromatic.com/library?appId=62319ee49ec817003a4eb3f1">
       Demo
     </a>
     <span> | </span>
@@ -32,9 +32,9 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://i.ibb.co/TrLrF6F/Button.gif)
 
-- The demo is being made
+- The deployed version of my solution for this challenge: https://www.chromatic.com/library?appId=62319ee49ec817003a4eb3f1
 - This challenge was very exciting and helped me to advance to the next level of development with React
 - I learned on how to create a reusable component and render it on Storybook
 
