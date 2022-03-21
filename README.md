@@ -34,7 +34,7 @@
 
 ![screenshot](https://i.ibb.co/TrLrF6F/Button.gif)
 
-- The deployed version of my solution for this challenge: https://www.chromatic.com/library?appId=62319ee49ec817003a4eb3f1
+- The deployed version of my solution for this challenge: https://www.chromatic.com/builds?appId=6238439e74bcc8003a7273a4
 - This challenge was very exciting and helped me to advance to the next level of development with React
 - I learned on how to create a reusable component and render it on Storybook
 
